@@ -1,27 +1,21 @@
-body{margin:0px;
- font-family: 'Roboto', sans-serif}
-header {
-	background-color:blue; 
-	color:white; 
-	text-align: center;
-    padding:5% 5% 0px 5% }
-.whitelink {text-decoration: none; color:white;}
-nav {margin: 0px auto; text-align: center;}
-nav ul {list-style-type:none; padding-left:0px !important;}
-nav ul li {
-	display:inline-block;
-    /*background-color: white;*/
-    padding: 8px; 
-    border-top-left-radius: 8x; 
-    border-top-right-radius: 8px;
-    text-transform: uppercase;}
-    .whitelink{text-decoration: none}
-h1 {
-	text-align:center;
+body {margin: 0px; font-family: 'Montserrat', sans-serif;}
+header {background-color:blue; 
+	color: white; 
+	padding: 5% 5% 0% 5%; text-align: center;}
+nav {text-align: center;}
+nav ul {list-style-type: none; 
+	padding-left: 0px !important}
+nav ul li {display: inline-block; 
+	/*background-color: white;*/
+	padding: 5px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	text-transform: uppercase;}
+.whitelink {text-decoration: none;color: white}
+.active {color: blue;
+         background-color: white}
+li.active a {color: blue}
+h1 {text-align: center;
 	margin: 0px}
-	#palazzo3 {max-width: 50%; margin: 40px 25%; opacity:0.5; transition: opacity .5s ease-in-out;}
-	#palazzo3:hover {opacity:1.0;}
-	#palazzo3{font-size: 2em; color:red;}
-	.active {background-color:white;}
-	li.active a {color:blue;}
- .morepadding { padding: 1em 30%;}
+#imghome {max-width: 60%; margin: 10% 20%}
+#gearicon {font-size: 2em}
