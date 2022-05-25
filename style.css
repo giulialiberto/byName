@@ -1,7 +1,14 @@
 body {margin: 0px; font-family: 'Montserrat', sans-serif;}
-header {background-color:blue; 
-	color: white; 
-	padding: 5% 5% 0% 5%; text-align: center;}
+.crop{
+	float:left;
+	margin:.0em 10px .9em 0;
+	overflow:hidden; /* this is important */
+	border:1px solid #ccc;
+	}
+	/* input values to crop the image: top, right, bottom, left */
+.crop img{ width: auto; height: 454px;
+	margin:-20px 0px -150px 0px;
+	}
 nav {text-align: center;}
 nav ul {list-style-type: none; 
 	padding-left: 0px !important}
