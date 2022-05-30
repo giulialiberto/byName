@@ -1,28 +1,7 @@
-body {margin: 0px; font-family: 'Montserrat', sans-serif;}
-.crop{
-	float:left;
-	margin:.0em 10px .9em 0;
-	overflow:hidden; /* this is important */
-	border:1px solid #ccc;
-	}
-	/* input values to crop the image: top, right, bottom, left */
-.crop img{ width: auto; height: 454px;
-	margin:-20px 0px -150px 0px;
-	}
-nav {text-align: center;}
-nav ul {list-style-type: none; 
-	padding-left: 0px !important}
-nav ul li {display: inline-block; 
-	/*background-color: white;*/
-	padding: 5px;
-	border-top-left-radius: 8px;
-	border-top-right-radius: 8px;
-	text-transform: uppercase;}
+nav {text-align: center; color: rgb();}
+button {color: black; font-size: medium;}
 .whitelink {text-decoration: none;color: white}
 .active {color: blue;
          background-color: white}
 li.active a {color: blue}
-h1 {text-align: center;
-	margin: 0px}
-#imghome {max-width: 60%; margin: 10% 20%}
-#gearicon {font-size: 2em}
+.logo {width: 40%;display: block; margin:0 auto;}
