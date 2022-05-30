@@ -1,7 +1,7 @@
 nav {text-align: center; color: rgb();}
-button {color: black; font-size: medium;}
+button {color: black; font-size: 17px;}
 .whitelink {text-decoration: none;color: white}
 .active {color: blue;
          background-color: white}
 li.active a {color: blue}
-.logo {width: 40%;display: block; margin:0 auto;}
+.logo {width: 30%;display: block; margin:0 auto;}
