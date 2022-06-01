@@ -8,6 +8,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/013bd60bc7.js" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
  <body>
   <header>
    <body background="img/spartito.jpeg">
@@ -30,11 +33,42 @@
               <nav style="--bs-breadcrumb-divider: url(&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&quot;);" aria-label="breadcrumb">
               </nav>
                <main>
-                <section class="testo">
-                  <p> A B C D E F  <br>
-                      G H I J K L <br> 
-                      M N O P Q R <br>
-                      S T U V Z <p/>
+               <div id="list-example" class="list-group">
+<ul class="list-group list-group-horizontal">
+  <a class="list-group-item list-group-item-action" href="#list-item-1">A</a>
+  <a class="list-group-item list-group-item-action" href="#list-item-2">B</a>
+  <a class="list-group-item list-group-item-action" href="#list-item-3">C</a>
+  <a class="list-group-item list-group-item-action" href="#list-item-4">D</a>
+  <a class="list-group-item list-group-item-action" href="#list-item-5">E</a>
+  <a class="list-group-item list-group-item-action" href="#list-item-6">F</a>
+</ul>
+</div>
+<h4 id="list-item-1">A</h4>
+<div class="d-flex align-items-start">
+  <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-ALESSIA" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">alessia</button>
+    <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</button>
+    <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</button>
+    <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</button>
+  </div>
+  <div class="tab-content" id="v-pills-tabContent">
+    <div class="tab-pane fade show active" id="v-pills-ALESSIA" role="tabpanel" aria-labelledby="v-pills-ALESSIA-tab" tabindex="0">canzoni per alessia</div>
+    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">...</div>
+    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">...</div>
+    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">...</div>
+  </div>
+</div>
+  <h4 id="list-item-2">B</h4>
+  <p>...</p>
+  <h4 id="list-item-3">C</h4>
+  <p>...</p>
+  <h4 id="list-item-4">D</h4>
+  <p>...</p>
+  <h4 id="list-item-5">E</h4>
+  <p>...</p>
+  <h4 id="list-item-6">F</h4>
+  <p>...</p>
+</div>
                    
             </section> 
   </main>     
