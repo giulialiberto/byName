@@ -8,30 +8,32 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/013bd60bc7.js" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/013bd60bc7.js" crossorigin="anonymous"></script>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
  <body>
   <header>
    <body background="img/spartito.jpeg">
-    <nav class="navbar">
+    <nav class="navbar justify-content-center">
      <div class="container-fluid"></div>
       <div><a class="navbar-brand" href="index.html"><img src="img/bynamelogo.png" width="30%"  alt="logo"></a></div>
-       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-           <ul>
-             <li ><a class="whitelink" href="index.html">home</a></li>
-              <li class="active"><a class="whitelink" href="names.html">names</a></li>
-              <li><a class="whitelink" href="contactus.html"> contact us</a></li>
-            </ul>
-        </div>
-       </div>
-   </nav>
+       <ul class="nav">
+  <li><a class="whitelink" aria-current="page" href="index.html">home</a>
+  </li>
+  <li class="active">
+    <a class="whitelink" href="names.html">names</a>
+  </li>
+  <li>
+    <a class="whitelink" href="contactus.html">contact us</a>
+  </li>
+</ul>
   </header>
    <div class="container">
       <div class="quadrato">
               <nav style="--bs-breadcrumb-divider: url(&quot;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&quot;);" aria-label="breadcrumb">
               </nav>
                <main>
+                <section>
                <div id="list-example" class="list-group">
 <ul class="list-group list-group-horizontal">
   <a class="list-group-item list-group-item-action" href="#list-item-1">A</a>
@@ -285,14 +287,14 @@
   <h4 id="list-item-14">N</h4>
   <div class="d-flex align-items-start">
   <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-NADIA" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Nadia</button>
-    <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-NINA" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Nina</button>
+    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-CARLO" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">CARLO</button>
+    <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</button>
     <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</button>
     <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</button>
   </div>
   <div class="tab-content" id="v-pills-tabContent">
-    <div class="tab-pane fade show active" id="v-pills-NADIA" role="tabpanel" aria-labelledby="v-pills-NADIA-tab" tabindex="0">canzoni per Nadia</div>
-    <div class="tab-pane fade" id="v-pills-NINA" role="tabpanel" aria-labelledby="v-pills-NINA-tab" tabindex="0">...</div>
+    <div class="tab-pane fade show active" id="v-pills-CARLO" role="tabpanel" aria-labelledby="v-pills-CARLO-tab" tabindex="0">canzoni per Carlo</div>
+    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">...</div>
     <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">...</div>
     <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">...</div>
   </div>
@@ -300,34 +302,19 @@
   <h4 id="list-item-15">0</h4>
   <div class="d-flex align-items-start">
   <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-OPHELIA" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Ophelia</button>
-    <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-ORLANDO" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Orlando</button>
+    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-CARLO" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">CARLO</button>
+    <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</button>
     <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</button>
     <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</button>
   </div>
   <div class="tab-content" id="v-pills-tabContent">
-    <div class="tab-pane fade show active" id="v-pills-OPHELIA" role="tabpanel" aria-labelledby="v-pills-OPHELIA-tab" tabindex="0">canzoni per Ophelia</div>
-    <div class="tab-pane fade" id="v-pills-ORLANDO" role="tabpanel" aria-labelledby="v-pills-ORLANDO-tab" tabindex="0">...</div>
+    <div class="tab-pane fade show active" id="v-pills-CARLO" role="tabpanel" aria-labelledby="v-pills-CARLO-tab" tabindex="0">canzoni per Carlo</div>
+    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">...</div>
     <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">...</div>
     <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">...</div>
   </div>
   </div>
-  <h4 id="list-item-16">P</h4>
-  <div class="d-flex align-items-start">
-  <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-PAOLO" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Paolo</button>
-    <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-PATRIZIA" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Patrizia</button>
-    <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-PEDRO" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Pedro</button>
-    <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</button>
-  </div>
-  <div class="tab-content" id="v-pills-tabContent">
-    <div class="tab-pane fade show active" id="v-pills-PAOLO" role="tabpanel" aria-labelledby="v-pills-PAOLO-tab" tabindex="0">canzoni per Paolo</div>
-    <div class="tab-pane fade" id="v-pills-PATRIZIA" role="tabpanel" aria-labelledby="v-pills-PATRIZIA-tab" tabindex="0">...</div>
-    <div class="tab-pane fade" id="v-pills-PEDRO" role="tabpanel" aria-labelledby="v-pills-PEDRO-tab" tabindex="0">...</div>
-    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">...</div>
-  </div>
-  </div>
-  <h4 id="list-item-17">Q</h4>
+  <h4 id="list-item-6">P</h4>
   <div class="d-flex align-items-start">
   <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
     <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-CARLO" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">CARLO</button>
@@ -342,99 +329,7 @@
     <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">...</div>
   </div>
   </div>
-  <h4 id="list-item-18">R</h4>
-  <div class="d-flex align-items-start">
-  <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-REBECCA" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Rebecca</button>
-    <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-ROBERTO" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Roberto</button>
-    <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-ROSA" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Rosa</button>
-    <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-ROSANNA" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Rosanna</button>
-  </div>
-  <div class="tab-content" id="v-pills-tabContent">
-    <div class="tab-pane fade show active" id="v-pills-REBECCA" role="tabpanel" aria-labelledby="v-pills-REBECCA-tab" tabindex="0">canzoni per Rebecca</div>
-    <div class="tab-pane fade" id="v-pills-ROBERTO" role="tabpanel" aria-labelledby="v-pills-ROBERTO-tab" tabindex="0">...</div>
-    <div class="tab-pane fade" id="v-pills-ROSA" role="tabpanel" aria-labelledby="v-pills-ROSA-tab" tabindex="0">...</div>
-    <div class="tab-pane fade" id="v-pills-ROSANNA" role="tabpanel" aria-labelledby="v-pills-ROSANNA-tab" tabindex="0">...</div>
-  </div>
-  </div>
-  <h4 id="list-item-19">S</h4>
-  <div class="d-flex align-items-start">
-  <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-SAMANTHA" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Samantha</button>
-    <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-SANDY" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Sandy</button>
-    <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-SARA" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Sara</button>
-    <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-SILVIA" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Silvia</button>
-    <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-SUSANNA" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Susanna</button>
-  </div>
-  <div class="tab-content" id="v-pills-tabContent">
-    <div class="tab-pane fade show active" id="v-pills-SAMANTHA" role="tabpanel" aria-labelledby="v-pills-SAMANTHA-tab" tabindex="0">canzoni per Samantha</div>
-    <div class="tab-pane fade" id="v-pills-SANDY" role="tabpanel" aria-labelledby="v-pills-SANDY-tab" tabindex="0">...</div>
-    <div class="tab-pane fade" id="v-pills-SARA" role="tabpanel" aria-labelledby="v-pills-SARA-tab" tabindex="0">...</div>
-    <div class="tab-pane fade" id="v-pills-SILVIA" role="tabpanel" aria-labelledby="v-pills-SILVIA-tab" tabindex="0">...</div>
-    <div class="tab-pane fade" id="v-pills-SUSANNA" role="tabpanel" aria-labelledby="v-pills-SUSANNA-tab" tabindex="0">...</div>
-  </div>
-  </div>
-  <h4 id="list-item-20">T</h4>
-  <div class="d-flex align-items-start">
-  <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-TERESA" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Teresa</button>
-    <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-TOMMY" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Tommy</button>
-    <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</button>
-    <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</button>
-  </div>
-  <div class="tab-content" id="v-pills-tabContent">
-    <div class="tab-pane fade show active" id="v-pills-TERESA" role="tabpanel" aria-labelledby="v-pills-TERESA-tab" tabindex="0">canzoni per Teresa</div>
-    <div class="tab-pane fade" id="v-pills-TOMMY" role="tabpanel" aria-labelledby="v-pills-TOMMY-tab" tabindex="0">...</div>
-    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">...</div>
-    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">...</div>
-  </div>
-  </div>
-  <h4 id="list-item-21">U</h4>
-  <div class="d-flex align-items-start">
-  <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-UGO" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Ugo</button>
-    <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</button>
-    <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</button>
-    <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</button>
-  </div>
-  <div class="tab-content" id="v-pills-tabContent">
-    <div class="tab-pane fade show active" id="v-pills-CARLO" role="tabpanel" aria-labelledby="v-pills-UGO-tab" tabindex="0">canzoni per Ugo</div>
-    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">...</div>
-    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">...</div>
-    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">...</div>
-  </div>
-  </div>
-  <h4 id="list-item-22">V</h4>
-  <div class="d-flex align-items-start">
-  <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-VALENTINA" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Valentina</button>
-    <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-VALERIE" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Valerie</button>
-    <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-VANESSA" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Vanessa</button>
-    <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-VITTORIA" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Vittoria</button>
-  </div>
-  <div class="tab-content" id="v-pills-tabContent">
-    <div class="tab-pane fade show active" id="v-pills-VALENTINA" role="tabpanel" aria-labelledby="v-pills-VALENTINA-tab" tabindex="0">canzoni per Valentina</div>
-    <div class="tab-pane fade" id="v-pills-VALERIE" role="tabpanel" aria-labelledby="v-pills-VALERIE-tab" tabindex="0">...</div>
-    <div class="tab-pane fade" id="v-pills-VANESSA" role="tabpanel" aria-labelledby="v-pills-VANESSA-tab" tabindex="0">...</div>
-    <div class="tab-pane fade" id="v-pills-VITTORIA" role="tabpanel" aria-labelledby="v-pills-VITTORIA-tab" tabindex="0">...</div>
-  </div>
-  </div>
-  <h4 id="list-item-23">W</h4>
-  <div class="d-flex align-items-start">
-  <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-WALTER" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Walter</button>
-    <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-WENDY" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Wendy</button>
-    <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</button>
-    <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</button>
-  </div>
-  <div class="tab-content" id="v-pills-tabContent">
-    <div class="tab-pane fade show active" id="v-pills-WALTER" role="tabpanel" aria-labelledby="v-pills-WALTER-tab" tabindex="0">canzoni per Walter</div>
-    <div class="tab-pane fade" id="v-pills-WENDY" role="tabpanel" aria-labelledby="v-pills-WENDY-tab" tabindex="0">...</div>
-    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">...</div>
-    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">...</div>
-  </div>
-  </div>
-  <h4 id="list-item-24">X</h4>
+  <h4 id="list-item-6">Q</h4>
   <div class="d-flex align-items-start">
   <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
     <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-CARLO" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">CARLO</button>
@@ -449,51 +344,108 @@
     <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">...</div>
   </div>
   </div>
-  <h4 id="list-item-25">Y</h4>
+  <h4 id="list-item-6">R</h4>
   <div class="d-flex align-items-start">
   <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-YOLANDA" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Yolanda</button>
+    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-CARLO" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">CARLO</button>
     <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</button>
     <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</button>
     <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</button>
   </div>
   <div class="tab-content" id="v-pills-tabContent">
-    <div class="tab-pane fade show active" id="v-pills-YOLANDA" role="tabpanel" aria-labelledby="v-pills-YOLANDA-tab" tabindex="0">canzoni per Yolanda</div>
+    <div class="tab-pane fade show active" id="v-pills-CARLO" role="tabpanel" aria-labelledby="v-pills-CARLO-tab" tabindex="0">canzoni per Carlo</div>
     <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">...</div>
     <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">...</div>
     <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">...</div>
   </div>
   </div>
-  <h4 id="list-item-26">Z</h4>
+  <h4 id="list-item-6">S</h4>
   <div class="d-flex align-items-start">
   <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-ZOE" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Zoe</button>
+    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-CARLO" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">CARLO</button>
     <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</button>
     <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</button>
     <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</button>
   </div>
   <div class="tab-content" id="v-pills-tabContent">
-    <div class="tab-pane fade show active" id="v-pills-ZOE" role="tabpanel" aria-labelledby="v-pills-ZOE-tab" tabindex="0">canzoni per Zoe</div>
+    <div class="tab-pane fade show active" id="v-pills-CARLO" role="tabpanel" aria-labelledby="v-pills-CARLO-tab" tabindex="0">canzoni per Carlo</div>
     <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">...</div>
     <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">...</div>
     <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">...</div>
   </div>
   </div>
-                   
+  <h4 id="list-item-6">T</h4>
+  <div class="d-flex align-items-start">
+  <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-CARLO" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">CARLO</button>
+    <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</button>
+    <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</button>
+    <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</button>
+  </div>
+  <div class="tab-content" id="v-pills-tabContent">
+    <div class="tab-pane fade show active" id="v-pills-CARLO" role="tabpanel" aria-labelledby="v-pills-CARLO-tab" tabindex="0">canzoni per Carlo</div>
+    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">...</div>
+    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">...</div>
+    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">...</div>
+  </div>
+  </div>
+  <h4 id="list-item-6">U</h4>
+  <div class="d-flex align-items-start">
+  <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-CARLO" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">CARLO</button>
+    <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</button>
+    <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</button>
+    <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</button>
+  </div>
+  <div class="tab-content" id="v-pills-tabContent">
+    <div class="tab-pane fade show active" id="v-pills-CARLO" role="tabpanel" aria-labelledby="v-pills-CARLO-tab" tabindex="0">canzoni per Carlo</div>
+    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">...</div>
+    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">...</div>
+    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">...</div>
+  </div>
+  </div>
+  <h4 id="list-item-6">V</h4>
+  <div class="d-flex align-items-start">
+  <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-CARLO" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">CARLO</button>
+    <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</button>
+    <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</button>
+    <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</button>
+  </div>
+  <div class="tab-content" id="v-pills-tabContent">
+    <div class="tab-pane fade show active" id="v-pills-CARLO" role="tabpanel" aria-labelledby="v-pills-CARLO-tab" tabindex="0">canzoni per Carlo</div>
+    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">...</div>
+    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">...</div>
+    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">...</div>
+  </div>
+  </div>
+  <h4 id="list-item-6">Z</h4>
+  <div class="d-flex align-items-start">
+  <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-CARLO" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">CARLO</button>
+    <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</button>
+    <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</button>
+    <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</button>
+  </div>
+  <div class="tab-content" id="v-pills-tabContent">
+    <div class="tab-pane fade show active" id="v-pills-CARLO" role="tabpanel" aria-labelledby="v-pills-CARLO-tab" tabindex="0">canzoni per Carlo</div>
+    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">...</div>
+    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">...</div>
+    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">...</div>
+  </div>
+  </div>
             </section> 
   </main>     
         </div>
-  <main>
-  </main>
-</div>
-  <footer>
+        </div>
+  </body>
+ <footer>
     <div>
   <p> SITO REALIZZATO DA GIULIA LIBERTO E JENNY LEORATO</p>
   <p><a> CONTATTI:
   <p> jenny.leorato@studio.unibo.it
-  <p> giulia.liberto@studio.unibo.it </a></p></div>
-<div class="cartella"> <i class="fa-regular fa-folder-closed fa-2xl"; <div class= "diritti"> <i class="fa-solid fa-c"></i></i></div>
-</footer>
+  <p> giulia.liberto@studio.unibo.it </a></p>
+ <div class="icone"> <i class="fa-regular fa-folder-closed fa-2xl"> <i class="fa-regular fa-copyright"></i></i></div>
 </div>
- </body>
+</footer>
 </html>
