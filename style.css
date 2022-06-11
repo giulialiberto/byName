@@ -10,9 +10,12 @@ nav ul li {display: inline-block;
     text-transform: uppercase;
     border-bottom-right-radius: 8px;
     margin-bottom: 8px;}
-.whitelink {text-decoration: none;color: #f72584}
-.active {color: blue;
+.whitelink {text-decoration: none;color: #f72584; 
+    --bs-link-hover-color: #fb8d45;}
+.active-ok {color: red;
          background-color: white}
+.active {color: red;
+         background-color: transparent;}
 li.active a {color: #f72584}
 .logo {width: 30%;display: block; margin:0 auto;}
 body {background-repeat: no-repeat;
@@ -43,4 +46,21 @@ h1 {margin: 0px;
 .nav-pills {
     --bs-nav-pills-border-radius: 0.375rem;
     --bs-nav-pills-link-active-color: #fff;
-    --bs-nav-pills-link-active-bg: #f72584;}
+    --bs-nav-pills-link-active-bg: #f72584 !important;}
+.nav {
+    --bs-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: black !important;
+    --bs-nav-link-hover-color: var(--bs-link-hover-color);
+    --bs-nav-link-disabled-color: #6c757d;;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;}
+.nav-pills .nav-link {
+    background: 0 0;
+    border: 1px; border-color: red;
+    --bs-nav-link-hover-color: #f72584;
+    border-radius: var(--bs-nav-pills-border-radius);}
+.d-flex align-items-start {justify-content: center;}
