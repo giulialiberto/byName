@@ -1,0 +1,66 @@
+body {margin: 0px; font-family: 'Belgrano', serif !important}
+nav {text-align: center; background: rgba(255, 255, 255, 0.3)}
+nav ul{text-align: center;list-style-type: none; 
+	padding-left: 0px !important; font-size: 20px; margin-block-start: auto;}
+nav ul li {display: inline-block;
+    padding: 5px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    text-transform: uppercase;
+    border-bottom-right-radius: 8px;
+    margin-bottom: 8px;}
+.whitelink {text-decoration: none;color: #f72584; 
+    --bs-link-hover-color: #fb8d45;}
+.active-ok {color: red;
+         background-color: white}
+.active {color: red;
+         background-color: transparent;}
+li.active a {color: #f72584}
+.logo {width: 30%;display: block; margin:0 auto;}
+body {background-repeat: no-repeat;
+	background-size: cover; 
+	background-position: center;
+	background-attachment: fixed;
+    margin: auto;}
+.quadrato { background: rgba(255, 255, 255, 0.3); border-radius: 30px;
+           text-align: center;
+           margin-left: 20%;
+           margin-right: 20%;
+           margin-top: 5%;
+           margin-bottom: 5%}  
+.testo {font-size:35px}
+h1 {font-family: 'Belgrano', serif; !important
+    margin: 0px;
+	font-size: 35px; 
+     color: #F72585;}
+ footer {
+    background: rgba(255,0,115,0.6);
+    background-size: cover;
+    text-align: center;
+    font-size: 20px;
+    height: auto;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    color: white;
+    font-family: 'Prompt', sans-serif;}
+.nav-pills {
+    --bs-nav-pills-border-radius: 0.375rem;
+    --bs-nav-pills-link-active-color: #fff;
+    --bs-nav-pills-link-active-bg: #f72584 !important;}
+.nav {
+    --bs-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: black !important;
+    --bs-nav-link-hover-color: var(--bs-link-hover-color);
+    --bs-nav-link-disabled-color: #6c757d;;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;}
+.nav-pills .nav-link {
+    background: 0 0;
+    border: 1px; border-color: red;
+    --bs-nav-link-hover-color: #f72584;
+    border-radius: var(--bs-nav-pills-border-radius);}
