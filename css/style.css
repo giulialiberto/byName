@@ -1,7 +1,7 @@
 body {margin: 0px; font-family: 'Belgrano', serif !important}
 nav {text-align: center; background: rgba(255, 255, 255, 0.3)}
 nav ul{text-align: center;list-style-type: none; 
-	padding-left: 0px !important; font-size: 20px; margin-block-start: auto;}
+	padding-left: 0px !important; font-size: 22px; margin-block-start: auto;}
 nav ul li {display: inline-block;
     padding: 5px;
     border-top-left-radius: 8px;
@@ -12,6 +12,7 @@ nav ul li {display: inline-block;
     margin-bottom: 8px;}
 .whitelink {text-decoration: none;color: #f72584; 
     --bs-link-hover-color: #fb8d45;}
+#bottone {color: #f72584; background-color: white; border-color: white; font-size: 20}
 .active-ok {color: red;
          background-color: white}
 .active {color: red;
@@ -29,7 +30,7 @@ body {background-repeat: no-repeat;
            margin-right: 20%;
            margin-top: 5%;
            margin-bottom: 5%}  
-.testo {font-size:35px}
+.testo {font-size:30px}
 h1 {font-family: 'Belgrano', serif; !important
     margin: 0px;
 	font-size: 35px; 
