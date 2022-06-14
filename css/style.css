@@ -43,7 +43,7 @@ body {background-repeat: no-repeat;
            padding: 10px;
            padding-top: 10px}  
 .testo {font-size:30px}
-h1 {font-family: 'Belgrano', serif; !important
+h1 {font-family: 'Belgrano', serif !important;
     margin: 0px;
 	font-size: 35px; 
      color: #F72585;}
@@ -79,7 +79,4 @@ h1 {font-family: 'Belgrano', serif; !important
     border-radius: var(--bs-nav-pills-border-radius);}
 .doc {text-align: left;
 }
-#albero {width: 500px; height: auto; margin: 30px 16%}
-#wireframehomepage {width: 500px; height: auto; margin: 30px 16%}
-#wireframenomi {width: 500px; height: auto; margin: 30px 16% }
-#wireframecontatti {width: 500px; height: auto; margin: 30px 16%}
+#wireframe {width: 500px; height: auto; }
